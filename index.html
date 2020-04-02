@@ -1,66 +1,157 @@
 <!DOCTYPE html>
 
 <html>
-
 <head>
-	<title>Google</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="stylegoogle.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+	<script src="https://kit.fontawesome.com/ef70a83cb2.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="stylesurfingsite.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+	<title>MY The Surfing Project</title>
 </head>
-
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">The Surfing Project</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-	<div id="header">
-	<a href="gmail.com">Gmail</a>
-	<a href="https://www.google.com.br/imghp?hl=pt-PT&tab=wi&authuser=0&ogbl">Images</a>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Le Programme</a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos Prochaines Sessions</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container" style="min-height:300px;">
+      <center><h1 class="display-3" style="color: white;">Partez à l'aventure</h1>
+      <h3 style="color: white;">Découvrez notre école de surf en peer-learning</h3>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Je m'inscris à la prochaine session &raquo;</a></p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Je découvre le programme &raquo;</a></p>
+      </center>
+    </div>
+  </div>
+
+  <div class="container">
+  	<center><h1 id="titles" style="margin-top: 20px; margin-bottom: 20px;">The Surfing Project en 3 points</h1></center>
+
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-4">
+      	<center><i class="far fa-money-bill-alt" style="font-size: 8em;"></i></center>
+        <center><h2>Pas Chèr</h2></center>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+       
+      </div>
+      <div class="col-md-4">
+      	<center><i class="fas fa-couch" style="font-size: 8em;"></i></center>
+        <center><h2>Relax</h2></center>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        
+      </div>
+      <div class="col-md-4">
+      	<center><i class="fas fa-people-carry" style="font-size: 8em;"></i></center>
+        <center><h2>La communauté</h2></center>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        
+      </div>
+    </div>
+
+    <!-- TEMOIGNAGE -->
+    <center><h1 id="titles" style="margin-top: 30px; margin-bottom: 30px;">Témoignages</h1></center>
+
+    <!-- TEST -->
+    <!-- TEST -->
+    <div class="temoignage-column">
+	      <div class="card" style="width: 30em">
+	  <img src="today.jpg" style="height: 317px;">
+	  <div class="card-body">
+	    <p class="card-text">Surfing is not a sport, it is a way of life. It's a way of looking at the waves and saying, "Hey bud, let's party!"</p>
+	    <small class="text-muted"> Pedro, Avril 2019</small>
+	  </div>
+			</div>
+
+			<div class="card" style="width: 30rem;">
+	  <img src="https://images.unsplash.com/photo-1493225255756-d9584f8606e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+	  <div class="card-body">
+	    <p class="card-text">Grace a TSP je fais le tour du monde avec mon van et fait du surf! Si l'experience était a refaire je le referais plein de fois.</p>
+	    <small class="text-muted"> Julian, Out 2019</small>
+	  </div>
+			</div>
 	</div>
 
-	<div id="container">
+  </div> <!-- /container -->
 
+  <div class="container">
+  	<center><h1 style="margin-top: 30px; margin-bottom: 30px;">Prix</h1></center>
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Semaine d'essai</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$0</h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Le kiff	</li>
+          <li>A Bali</li>
+          <li>Pendant 1 semaine</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-outline-primary">S'inscrire</button>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Early Bird</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$15</h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Le kiff</li>
+          <li>A Bali</li>
+          <li>Pendant 12 semaines</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">S'inscrire</button>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">En trois fois</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">7$ <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Le kiff</li>
+          <li>A Bali</li>
+          <li>Pendant 12 semaines</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">S'inscrire</button>
+      </div>
+    </div>
+  </div>
 
-		<div id="logo" style="margin-bottom: 20px;">
-			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-		</div>
+</main>
 
-		<div class= "search-box">
-			<input class="search-txt" type="text" name="" />
-			<a class="search-btn" href="#">
-			<span class="material-icons"> search </span>
-			</a>
-
-
-				
-		</div>
-
-		<div id="search-buttons">
-			
-				<input type="submit" value="Search Google" class="button" />
-				<input type="submit" value="I'm Feeling Lucky" class="button" />
-
-		</div>
-
-		<p style="padding-top: 50px;">Google offered in   <a style="color: blue;" href="google.com">English</a> &nbsp  and   <a style = "color: blue; href = "https//google-BR">Portuguese(PT)</a></p>
-		
-	</div>
-	<footer>
-
-			<ul>
-				<li style="padding-left: 27px;">Brazil</li>
-			</ul>
-			<hr>
-			<ul>
-				<a href="https://ads.google.com/intl/pt-BR_br/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-				<a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
-				<a href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
-				<a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
-			</ul>
-
-	</footer>
-
-
-
+<footer class="container">
+  <p>&copy; Bootstrap & The Hacking Project</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 </body>
 </html>
-
